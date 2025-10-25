@@ -50,11 +50,7 @@ https://aistudio.google.com/app/apikey
 4️⃣ Run the application
 streamlit run app.py
 
-📂 Project Structure
-Smartpdf-QueryBot
- ┣ app.py
- ┣ requirements.txt
- ┗ faiss_index/  (generated after processing PDFs)
+
 
 🧠 How It Works
 
