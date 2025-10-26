@@ -21,9 +21,6 @@ It uses **Google Gemini (Generative AI)** and **LangChain** to read, understand,
 python -m venv venv
 ```
 
-Activate it:
-- **Windows:** `venv\Scripts\activate`
-- **Mac/Linux:** `source venv/bin/activate`
 
 ---
 
@@ -59,7 +56,7 @@ Get your key from: [https://aistudio.google.com/app/apikey](https://aistudio.goo
 
 ### 4️⃣ Run the App
 ```bash
-streamlit run chatpdf1.py
+streamlit run app.py
 ```
 
 Then open the link shown in your terminal (like [http://localhost:8501](http://localhost:8501)).
@@ -97,12 +94,7 @@ The bot searches the file and replies with a short summary — taken directly fr
 
 ---
 
-## 🧰 Troubleshooting
-| Issue | Fix |
-|-------|-----|
-| `ModuleNotFoundError: langchain.text_splitter` | Run `pip install langchain-text-splitters` |
-| `ModuleNotFoundError: google.generativeai` | Run `pip install google-generativeai` |
-| App not running | Make sure your environment is activated |
+
 
 ---
 
