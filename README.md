@@ -16,7 +16,7 @@ It uses **Google Gemini (Generative AI)** and **LangChain** to read, understand,
 
 ## ⚙️ Setup Steps
 
-### 1️⃣ Create Virtual Environment
+### Create Virtual Environment
 ```bash
 python -m venv venv
 ```
@@ -24,7 +24,7 @@ python -m venv venv
 
 ---
 
-### 2️⃣ Install Dependencies
+### Install Dependencies
 Create a `requirements.txt` file and add:
 ```
 streamlit
@@ -45,7 +45,7 @@ pip install -r requirements.txt
 
 ---
 
-### 3️⃣ Add Google API Key
+###  Add Google API Key
 Create a `.env` file in your project folder and paste your key:
 ```
 GOOGLE_API_KEY="your_api_key_here"
@@ -54,7 +54,7 @@ Get your key from: [https://aistudio.google.com/app/apikey](https://aistudio.goo
 
 ---
 
-### 4️⃣ Run the App
+###  Run the App
 ```bash
 streamlit run app.py
 ```
@@ -62,7 +62,7 @@ streamlit run app.py
 
 ---
 
-## 💡 How It Works 
+## How It Works 
 
 1. You upload your PDF files.  
 2. The app reads all the text using **PyPDF2**.  
@@ -76,7 +76,7 @@ streamlit run app.py
 
 ---
 
-### 🔁 Summary
+###  Summary
 ```
 Upload PDF → Extract Text → Split → Create Embeddings
 → Store in FAISS → Ask Question → Gemini Gives Answer
@@ -84,7 +84,7 @@ Upload PDF → Extract Text → Split → Create Embeddings
 
 ---
 
-## 🧩 Example
+##  Example
 If you upload a file named `Report.pdf` and ask:
 
 > “What is the summary of this document?”
@@ -97,7 +97,7 @@ The bot searches the file and replies with a short summary — taken directly fr
 
 ---
 
-## ✅ Conclusion
+## Conclusion
 SmartPDF QueryBot makes reading PDFs easy and smart.  
 It turns your documents into a chatbot using **Google Gemini**, **LangChain**, and **Streamlit**.  
 Just upload, ask, and get your answers instantly.
