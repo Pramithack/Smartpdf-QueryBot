@@ -59,11 +59,10 @@ Get your key from: [https://aistudio.google.com/app/apikey](https://aistudio.goo
 streamlit run app.py
 ```
 
-Then open the link shown in your terminal (like [http://localhost:8501](http://localhost:8501)).
 
 ---
 
-## 💡 How It Works (Simple Steps)
+## 💡 How It Works 
 
 1. You upload your PDF files.  
 2. The app reads all the text using **PyPDF2**.  
@@ -103,7 +102,6 @@ SmartPDF QueryBot makes reading PDFs easy and smart.
 It turns your documents into a chatbot using **Google Gemini**, **LangChain**, and **Streamlit**.  
 Just upload, ask, and get your answers instantly.
 
----
 
-**Developed by:** *Pramitha* 👩‍💻
+
 
